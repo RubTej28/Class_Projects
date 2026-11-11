@@ -1,0 +1,285 @@
+/* Global Styles */
+
+.tooltip {
+    font-style: italic;
+}
+
+hr {
+    border: solid 1px #4147BF;
+}
+
+.img_style {
+    border-radius: 20px;
+}
+
+h3 {
+    color: #4147BF;
+    font-size: 24px;
+    text-align: center;
+}
+
+h2 {
+    color: #4147BF;
+    text-align: center;
+}
+
+h1 {
+    color: #4147BF;
+    text-align: center;
+}
+
+body {
+    background-color: #381D40;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    color: #4147BF;
+}
+
+
+a:hover{
+    color:#6D3F73;
+    text-decoration: none;
+}
+
+                                                                    /* Mobile Styles */
+
+#container {
+    margin: 0;
+    background-color: #6695F2;
+    border: 4px solid #4147BF;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    border-bottom: solid 4px #4147BF;
+    border-top: solid 4px #4147BF;
+}
+
+nav li a{
+    display: block;
+    background-color: #AB7050;
+    color: rgb(66, 65, 65);
+    height: 20px;
+    line-height: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid 4px #48D96C;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a:hover {
+    color: #48D96C;
+ background-color:gray;
+}
+
+body {
+    margin: 0;
+}
+
+.col {
+    border-radius: 20px;
+    border: 4px solid #4147BF;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.pictures {
+    height: 150px;
+    width: 150px;
+}
+
+main {
+    margin: 15px;
+}
+
+p {
+    color: #4147BF;
+    font-size: 18px;
+    text-indent: 10%;
+}
+
+.banner {
+    border-radius: 20px 20px 0 0;
+    border-bottom: solid 4px #4147BF;
+}
+
+aside {
+    border-radius: 20px;
+    border: 4px solid #4147BF;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue; 
+}
+
+.mod_links {
+    font-size: 20px;
+}
+
+.game_features {
+    border-radius: 20px;
+    border: 4px solid #4147BF;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    height: 20%;
+    font-size: 18px;
+}
+
+footer {
+    border-top: solid 4px #4147BF;
+    padding: 20px;
+    background-color: lightblue;
+    color: #4147BF;
+    text-align: center;
+}
+
+
+
+                                                                /* Tablet Styles */
+
+@media (min-width: 768px) {
+    
+nav li {
+    display: inline-block;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ nav li a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px;
+    width: 150px;
+}
+
+body {
+    margin: 20px;
+}
+
+#container {
+    border-radius: 20px;
+}
+    
+.pictures {
+    border: solid 4px #4147BF;
+}
+
+p {
+    font-size: 22px;
+    text-indent: 5%;
+}
+
+.world_difficulty {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h1 {
+    font-size: 35px;
+    margin: 15px;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 15px;
+}
+
+.img_style {
+    width: 75%;
+}
+
+.game_features {
+    font-size: 20px;
+}
+
+
+footer {
+    padding: 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 20px;
+}
+
+}
+                                            /* Desktop Styles */
+
+@media (min-width: 1024px) {
+
+#container {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.img_style {
+    width: 65%;
+    border: solid 6px #4147BF;
+    box-shadow: 1px 2px 8px black;
+}
+
+
+nav li a:hover {
+    box-shadow: 1px 2px 8px black;
+}
+
+aside {
+    box-shadow: 1px 2px 8px black;
+}
+
+.multi_col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col {
+    box-shadow: 1px 2px 8px black;
+}
+
+p {
+    font-size: 22px;
+    text-indent: 40px;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 15px;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 15px;
+}
+
+.game_features {
+    box-shadow: 1px 2px 8px black;
+}
+
+
+}
